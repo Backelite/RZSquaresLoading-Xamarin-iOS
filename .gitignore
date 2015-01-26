@@ -1,0 +1,8 @@
+build
+bin
+obj
+*.userprefs
+
+!*.dll
+!Binding/RZSquaresLoading/bin
+*.mdb
