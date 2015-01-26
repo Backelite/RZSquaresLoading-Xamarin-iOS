@@ -1,0 +1,371 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		273B9E691A76A4BE004F26BC /* RZSquaresLoadingLibrary.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 273B9E681A76A4BE004F26BC /* RZSquaresLoadingLibrary.h */; };
+		273B9E6B1A76A4BE004F26BC /* RZSquaresLoadingLibrary.m in Sources */ = {isa = PBXBuildFile; fileRef = 273B9E6A1A76A4BE004F26BC /* RZSquaresLoadingLibrary.m */; };
+		273B9E711A76A4BE004F26BC /* libRZSquaresLoadingLibrary.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 273B9E651A76A4BE004F26BC /* libRZSquaresLoadingLibrary.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		273B9E721A76A4BE004F26BC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 273B9E5D1A76A4BE004F26BC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 273B9E641A76A4BE004F26BC;
+			remoteInfo = RZSquaresLoadingLibrary;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		273B9E631A76A4BE004F26BC /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				273B9E691A76A4BE004F26BC /* RZSquaresLoadingLibrary.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		273B9E651A76A4BE004F26BC /* libRZSquaresLoadingLibrary.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libRZSquaresLoadingLibrary.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		273B9E681A76A4BE004F26BC /* RZSquaresLoadingLibrary.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RZSquaresLoadingLibrary.h; sourceTree = "<group>"; };
+		273B9E6A1A76A4BE004F26BC /* RZSquaresLoadingLibrary.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RZSquaresLoadingLibrary.m; sourceTree = "<group>"; };
+		273B9E701A76A4BE004F26BC /* RZSquaresLoadingLibraryTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RZSquaresLoadingLibraryTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		273B9E761A76A4BE004F26BC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		273B9E621A76A4BE004F26BC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		273B9E6D1A76A4BE004F26BC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				273B9E711A76A4BE004F26BC /* libRZSquaresLoadingLibrary.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		273B9E5C1A76A4BE004F26BC = {
+			isa = PBXGroup;
+			children = (
+				273B9E671A76A4BE004F26BC /* RZSquaresLoadingLibrary */,
+				273B9E741A76A4BE004F26BC /* RZSquaresLoadingLibraryTests */,
+				273B9E661A76A4BE004F26BC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		273B9E661A76A4BE004F26BC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				273B9E651A76A4BE004F26BC /* libRZSquaresLoadingLibrary.a */,
+				273B9E701A76A4BE004F26BC /* RZSquaresLoadingLibraryTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		273B9E671A76A4BE004F26BC /* RZSquaresLoadingLibrary */ = {
+			isa = PBXGroup;
+			children = (
+				273B9E681A76A4BE004F26BC /* RZSquaresLoadingLibrary.h */,
+				273B9E6A1A76A4BE004F26BC /* RZSquaresLoadingLibrary.m */,
+			);
+			path = RZSquaresLoadingLibrary;
+			sourceTree = "<group>";
+		};
+		273B9E741A76A4BE004F26BC /* RZSquaresLoadingLibraryTests */ = {
+			isa = PBXGroup;
+			children = (
+				273B9E751A76A4BE004F26BC /* Supporting Files */,
+			);
+			path = RZSquaresLoadingLibraryTests;
+			sourceTree = "<group>";
+		};
+		273B9E751A76A4BE004F26BC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				273B9E761A76A4BE004F26BC /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		273B9E641A76A4BE004F26BC /* RZSquaresLoadingLibrary */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 273B9E791A76A4BE004F26BC /* Build configuration list for PBXNativeTarget "RZSquaresLoadingLibrary" */;
+			buildPhases = (
+				273B9E611A76A4BE004F26BC /* Sources */,
+				273B9E621A76A4BE004F26BC /* Frameworks */,
+				273B9E631A76A4BE004F26BC /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RZSquaresLoadingLibrary;
+			productName = RZSquaresLoadingLibrary;
+			productReference = 273B9E651A76A4BE004F26BC /* libRZSquaresLoadingLibrary.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		273B9E6F1A76A4BE004F26BC /* RZSquaresLoadingLibraryTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 273B9E7C1A76A4BE004F26BC /* Build configuration list for PBXNativeTarget "RZSquaresLoadingLibraryTests" */;
+			buildPhases = (
+				273B9E6C1A76A4BE004F26BC /* Sources */,
+				273B9E6D1A76A4BE004F26BC /* Frameworks */,
+				273B9E6E1A76A4BE004F26BC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				273B9E731A76A4BE004F26BC /* PBXTargetDependency */,
+			);
+			name = RZSquaresLoadingLibraryTests;
+			productName = RZSquaresLoadingLibraryTests;
+			productReference = 273B9E701A76A4BE004F26BC /* RZSquaresLoadingLibraryTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		273B9E5D1A76A4BE004F26BC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = Backelite;
+				TargetAttributes = {
+					273B9E641A76A4BE004F26BC = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					273B9E6F1A76A4BE004F26BC = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+				};
+			};
+			buildConfigurationList = 273B9E601A76A4BE004F26BC /* Build configuration list for PBXProject "RZSquaresLoadingLibrary" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 273B9E5C1A76A4BE004F26BC;
+			productRefGroup = 273B9E661A76A4BE004F26BC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				273B9E641A76A4BE004F26BC /* RZSquaresLoadingLibrary */,
+				273B9E6F1A76A4BE004F26BC /* RZSquaresLoadingLibraryTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		273B9E6E1A76A4BE004F26BC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		273B9E611A76A4BE004F26BC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				273B9E6B1A76A4BE004F26BC /* RZSquaresLoadingLibrary.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		273B9E6C1A76A4BE004F26BC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		273B9E731A76A4BE004F26BC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 273B9E641A76A4BE004F26BC /* RZSquaresLoadingLibrary */;
+			targetProxy = 273B9E721A76A4BE004F26BC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		273B9E771A76A4BE004F26BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		273B9E781A76A4BE004F26BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		273B9E7A1A76A4BE004F26BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		273B9E7B1A76A4BE004F26BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		273B9E7D1A76A4BE004F26BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = RZSquaresLoadingLibraryTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		273B9E7E1A76A4BE004F26BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = RZSquaresLoadingLibraryTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		273B9E601A76A4BE004F26BC /* Build configuration list for PBXProject "RZSquaresLoadingLibrary" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				273B9E771A76A4BE004F26BC /* Debug */,
+				273B9E781A76A4BE004F26BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		273B9E791A76A4BE004F26BC /* Build configuration list for PBXNativeTarget "RZSquaresLoadingLibrary" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				273B9E7A1A76A4BE004F26BC /* Debug */,
+				273B9E7B1A76A4BE004F26BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		273B9E7C1A76A4BE004F26BC /* Build configuration list for PBXNativeTarget "RZSquaresLoadingLibraryTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				273B9E7D1A76A4BE004F26BC /* Debug */,
+				273B9E7E1A76A4BE004F26BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 273B9E5D1A76A4BE004F26BC /* Project object */;
+}
