@@ -7,20 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		273B9E691A76A4BE004F26BC /* RZSquaresLoadingLibrary.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 273B9E681A76A4BE004F26BC /* RZSquaresLoadingLibrary.h */; };
-		273B9E6B1A76A4BE004F26BC /* RZSquaresLoadingLibrary.m in Sources */ = {isa = PBXBuildFile; fileRef = 273B9E6A1A76A4BE004F26BC /* RZSquaresLoadingLibrary.m */; };
-		273B9E711A76A4BE004F26BC /* libRZSquaresLoadingLibrary.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 273B9E651A76A4BE004F26BC /* libRZSquaresLoadingLibrary.a */; };
+		273B9E811A76A4D9004F26BC /* RZSquaresLoading.m in Sources */ = {isa = PBXBuildFile; fileRef = 273B9E801A76A4D9004F26BC /* RZSquaresLoading.m */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		273B9E721A76A4BE004F26BC /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 273B9E5D1A76A4BE004F26BC /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 273B9E641A76A4BE004F26BC;
-			remoteInfo = RZSquaresLoadingLibrary;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
 		273B9E631A76A4BE004F26BC /* CopyFiles */ = {
@@ -29,7 +17,6 @@
 			dstPath = "include/$(PRODUCT_NAME)";
 			dstSubfolderSpec = 16;
 			files = (
-				273B9E691A76A4BE004F26BC /* RZSquaresLoadingLibrary.h in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -37,10 +24,9 @@
 
 /* Begin PBXFileReference section */
 		273B9E651A76A4BE004F26BC /* libRZSquaresLoadingLibrary.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libRZSquaresLoadingLibrary.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		273B9E681A76A4BE004F26BC /* RZSquaresLoadingLibrary.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RZSquaresLoadingLibrary.h; sourceTree = "<group>"; };
-		273B9E6A1A76A4BE004F26BC /* RZSquaresLoadingLibrary.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RZSquaresLoadingLibrary.m; sourceTree = "<group>"; };
-		273B9E701A76A4BE004F26BC /* RZSquaresLoadingLibraryTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RZSquaresLoadingLibraryTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		273B9E761A76A4BE004F26BC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		273B9E7F1A76A4D9004F26BC /* RZSquaresLoading.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RZSquaresLoading.h; path = ../../RZSquaresLoading/RZSquaresLoading/RZSquaresLoading.h; sourceTree = "<group>"; };
+		273B9E801A76A4D9004F26BC /* RZSquaresLoading.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RZSquaresLoading.m; path = ../../RZSquaresLoading/RZSquaresLoading/RZSquaresLoading.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,14 +34,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		273B9E6D1A76A4BE004F26BC /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				273B9E711A76A4BE004F26BC /* libRZSquaresLoadingLibrary.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -75,7 +53,6 @@
 			isa = PBXGroup;
 			children = (
 				273B9E651A76A4BE004F26BC /* libRZSquaresLoadingLibrary.a */,
-				273B9E701A76A4BE004F26BC /* RZSquaresLoadingLibraryTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -83,8 +60,8 @@
 		273B9E671A76A4BE004F26BC /* RZSquaresLoadingLibrary */ = {
 			isa = PBXGroup;
 			children = (
-				273B9E681A76A4BE004F26BC /* RZSquaresLoadingLibrary.h */,
-				273B9E6A1A76A4BE004F26BC /* RZSquaresLoadingLibrary.m */,
+				273B9E7F1A76A4D9004F26BC /* RZSquaresLoading.h */,
+				273B9E801A76A4D9004F26BC /* RZSquaresLoading.m */,
 			);
 			path = RZSquaresLoadingLibrary;
 			sourceTree = "<group>";
@@ -125,24 +102,6 @@
 			productReference = 273B9E651A76A4BE004F26BC /* libRZSquaresLoadingLibrary.a */;
 			productType = "com.apple.product-type.library.static";
 		};
-		273B9E6F1A76A4BE004F26BC /* RZSquaresLoadingLibraryTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 273B9E7C1A76A4BE004F26BC /* Build configuration list for PBXNativeTarget "RZSquaresLoadingLibraryTests" */;
-			buildPhases = (
-				273B9E6C1A76A4BE004F26BC /* Sources */,
-				273B9E6D1A76A4BE004F26BC /* Frameworks */,
-				273B9E6E1A76A4BE004F26BC /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				273B9E731A76A4BE004F26BC /* PBXTargetDependency */,
-			);
-			name = RZSquaresLoadingLibraryTests;
-			productName = RZSquaresLoadingLibraryTests;
-			productReference = 273B9E701A76A4BE004F26BC /* RZSquaresLoadingLibraryTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -153,9 +112,6 @@
 				ORGANIZATIONNAME = Backelite;
 				TargetAttributes = {
 					273B9E641A76A4BE004F26BC = {
-						CreatedOnToolsVersion = 6.1.1;
-					};
-					273B9E6F1A76A4BE004F26BC = {
 						CreatedOnToolsVersion = 6.1.1;
 					};
 				};
@@ -173,46 +129,20 @@
 			projectRoot = "";
 			targets = (
 				273B9E641A76A4BE004F26BC /* RZSquaresLoadingLibrary */,
-				273B9E6F1A76A4BE004F26BC /* RZSquaresLoadingLibraryTests */,
 			);
 		};
 /* End PBXProject section */
-
-/* Begin PBXResourcesBuildPhase section */
-		273B9E6E1A76A4BE004F26BC /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		273B9E611A76A4BE004F26BC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				273B9E6B1A76A4BE004F26BC /* RZSquaresLoadingLibrary.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		273B9E6C1A76A4BE004F26BC /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				273B9E811A76A4D9004F26BC /* RZSquaresLoading.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		273B9E731A76A4BE004F26BC /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 273B9E641A76A4BE004F26BC /* RZSquaresLoadingLibrary */;
-			targetProxy = 273B9E721A76A4BE004F26BC /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		273B9E771A76A4BE004F26BC /* Debug */ = {
@@ -248,10 +178,11 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
+				VALID_ARCHS = "armv7 armv7s";
 			};
 			name = Debug;
 		};
@@ -282,10 +213,11 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
+				VALID_ARCHS = "armv7 armv7s";
 			};
 			name = Release;
 		};
@@ -307,36 +239,6 @@
 			};
 			name = Release;
 		};
-		273B9E7D1A76A4BE004F26BC /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = RZSquaresLoadingLibraryTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-			};
-			name = Debug;
-		};
-		273B9E7E1A76A4BE004F26BC /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = RZSquaresLoadingLibraryTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -354,14 +256,6 @@
 			buildConfigurations = (
 				273B9E7A1A76A4BE004F26BC /* Debug */,
 				273B9E7B1A76A4BE004F26BC /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-		};
-		273B9E7C1A76A4BE004F26BC /* Build configuration list for PBXNativeTarget "RZSquaresLoadingLibraryTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				273B9E7D1A76A4BE004F26BC /* Debug */,
-				273B9E7E1A76A4BE004F26BC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
